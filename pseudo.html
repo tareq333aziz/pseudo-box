@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1:hover {
+            color: skyblue;
+            background-color: seagreen;
+            font-weight: 70;
+        }
+        
+        .middle-person:focus {
+            color: blue;
+            font-weight: 800;
+        }
+        
+        a:visited {
+            color: red;
+        }
+        
+        li:first-child {
+            color: chocolate;
+        }
+        
+        li:last-child {
+            background-color: cyan;
+        }
+        
+        li:nth-child(2n) {
+            color: yellowgreen;
+        }
+        
+        li:nth-child(2n+1) {
+            background-color: deeppink;
+        }
+        
+        h3::before {
+            content: 'Hello ';
+        }
+        
+        .special::after {
+            content: 'Good bye';
+            background-color: aqua;
+            font-size: 39px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>This is normal</h1>
+    <input type="text">
+    <input class="middle-person" type="text">
+    <input type="text"><br>
+    <a href="https://www.google.com">Entry the google</a>
+    <a href="https://www.google.com/search?q=bran+new+site&rlz=1C5CHFA_enBD980BD980&oq=bran+new+site&aqs=chrome..69i57j69i60.11789j0j1&sourceid=chrome&ie=UTF-8"> never visited</a>
+    <a href="https://web.programming-hero.com">Entry the programing hero</a>
+    <br>
+    <h3>middle size header-1</h3>
+    <h3 class="special">middle size header-2</h3>
+    <h3>middle size header-3</h3>
+    <h3 class="special">middle size header-4</h3>
+    <h3 class="special">middle size header-5</h3>
+    <h3>middle size header-6</h3>
+    <ul>
+        <li>Tareq</li>
+        <li>Tanvir</li>
+        <li>Tajvid</li>
+        <li>Abbu</li>
+        <li>Ammu</li>
+        <li>Sayma</li>
+    </ul>
+
+</body>
+
+</html>
